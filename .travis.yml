@@ -5,10 +5,11 @@ python:
   - "3.6"
     #install:
 install:
+  - travis_install.sh
   #-sudo apt-get update 
   #- sudo ./tests/travis_install.sh
   #-pip install -r requirements.txt
-   - python setup.py install
+  # - python setup.py install
   #-python setup.py install
    
   # We do this conditionally because it saves us some downloading if the
