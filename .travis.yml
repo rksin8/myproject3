@@ -33,5 +33,5 @@ install:
 script:
   -python tests/test_skeleton.py
 
-#after_success:
-#- codecov
+after_success:
+- codecov
