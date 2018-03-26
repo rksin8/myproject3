@@ -1,6 +1,8 @@
 ==========
 myproject3
 ==========
+.. image:: https://travis-ci.org/rksin8/myproject3.png
+   :target: https://travis-ci.org/rksin8/myproject3
 
 
 Add a short description here!
