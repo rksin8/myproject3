@@ -12,7 +12,7 @@ install:
    
   # We do this conditionally because it saves us some downloading if the
   # version is the same.
-  - wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
+  #- wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
   #- if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
   #    wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -O miniconda.sh;
   #  else
@@ -31,7 +31,7 @@ install:
 
 
 script:
-  -python tests/test_skeleton.py
+  -python setup.py test
 
 after_success:
 - codecov
