@@ -29,7 +29,8 @@ install:
 
 
 script:
-  - py.test --cov-config .coveragerc --cov=src tests
+  -python setup.py test
+  #- py.test --cov-config .coveragerc --cov=src tests
   #-py.test
   #- pytest
 
