@@ -27,6 +27,7 @@ install:
   #- conda info -a
   #- conda env create --file test/test_env.yml
   #- source activate test_env
+  #- end
 
 
 script:
