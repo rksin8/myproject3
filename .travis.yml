@@ -54,6 +54,7 @@ install:
   -if [[ "$COVERAGE" == "true" ]]; then
     pip install coverage coveralls
    fi
+   #end
 
 script:
   - py.test --cov-config .coveragerc --cov=myproject3 test
