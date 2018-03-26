@@ -4,6 +4,9 @@ myproject3
 .. image:: https://travis-ci.org/rksin8/myproject3.png
    :target: https://travis-ci.org/rksin8/myproject3
 
+.. image:: https://readthedocs.org/projects/myproject3/badge/?version=latest
+:target: http://myproject3.readthedocs.io/en/latest/?badge=latest
+:alt: Documentation Status
 
 Add a short description here!
 
