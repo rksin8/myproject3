@@ -29,8 +29,8 @@ install:
 
 
 script:
-  #- py.test --cov-config .coveragerc --cov=src tests
-  -py.test
+  - py.test --cov-config .coveragerc --cov=src tests
+  #-py.test
   #- pytest
 
 #after_success:
