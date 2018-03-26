@@ -27,7 +27,8 @@ install: ./tests/travis_install.sh
 
 
 script:
-  - py.test --cov-config .coveragerc --cov=src tests
+  #- py.test --cov-config .coveragerc --cov=src tests
+  -py.test
 
-after_success:
-- codecov
+#after_success:
+#- codecov
